@@ -1,0 +1,92 @@
+body {
+  background-image: url("../img/Hando.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: block;
+  background-color: #B0B0B0;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+h2{
+  color: #E72035;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+h3{
+  color: #0137D3;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+nav li:hover{
+  background-color: #0FB9AC;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+ nav li {
+   float: left;
+}
+
+nav li a {
+  display: block;
+  color: #FF6AA1;
+  text-align: center;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-family: 'Changa One', cursive;
+}
+
+nav{
+  border: 3px black solid;
+  border-right: none;
+  border-left: none;
+  width: 43%;
+}
+
+.intro{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-family: 'Zilla Slab', serif;
+}
+
+.description{
+  display: block;
+  font-family: 'Patua One', cursive;
+  font-size: 20px;
+}
+.evolution{
+  display: block;
+  font-family: 'Patua One', cursive;
+  font-size: 20px;
+}
+
+
+.siteoff{
+  text-align: center;
+  display: block;
+}
+
+footer{
+  text-align: center;
+}

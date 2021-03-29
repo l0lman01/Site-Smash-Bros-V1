@@ -1,0 +1,99 @@
+body{
+  background-image: url('../img/bg contact.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  display: block;
+  color: #E72035;
+  text-align: center;
+  font-family: 'Changa One', cursive;
+  margin-left: 125px;
+  margin-right: 125px;
+
+}
+
+h1{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+}
+
+nav li:hover{
+  background-color: #0FB9AC;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+ nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #F6E007;
+  text-align: center;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-family: 'Changa One', cursive;
+}
+
+nav{
+  background-color: black;
+  border: 3px white solid;
+  border-right: none;
+  border-left: none;
+  width: 43%;
+}
+
+
+form {
+  margin: 0 auto;
+  width: 600px;
+  padding: 1em;
+  border: 3px solid white;
+  border-radius: 1em;
+  background-color: #525252;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 350px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: white;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  display: block;
+
+}
+
+button {
+  margin-left: .5em;
+}
+
+footer{
+text-align: center;
+}

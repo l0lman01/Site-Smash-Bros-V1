@@ -1,0 +1,73 @@
+body{
+  background-image: url("../img/final dest.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+h1{
+  text-align: center;
+  color: #E72035;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+}
+
+nav li:hover{
+  background-color: #0FB9AC;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #FF6AA1;
+  text-align: center;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-family: 'Changa One', cursive;
+}
+
+nav{
+  border: 3px white solid;
+  border-right: none;
+  border-left: none;
+  width: 43%;
+}
+
+h2{
+  color: #0137D3;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+h3{
+  color: #F6E007;
+  font-family: cursive;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p{
+  color: white;
+  font-family:'Patua One', cursive;
+  font-size: 20px;
+}
+
+
+footer{
+color: white;
+text-align: center;
+}
